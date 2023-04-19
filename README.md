@@ -39,6 +39,8 @@ git clone https://github.com/ChanchisArmy/keystrokes-controller
 
 ### Explanation
 
+<img width="516" alt="image" src="https://user-images.githubusercontent.com/87735757/232982111-557e4dbe-f8c4-4a3d-ba6a-539748ebbef9.png">
+
 **Stable Twitch chat connection**
 
 A solid source of truth to listen the chat messages, including usernames and profile images.
