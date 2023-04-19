@@ -39,25 +39,32 @@ git clone https://github.com/ChanchisArmy/keystrokes-controller
 
 ### Explanation
 
-**Stable Twitch chat connection**:
+**Stable Twitch chat connection**
+
 A solid source of truth to listen the chat messages, including usernames and profile images.
 
-**Control the host keystrokes**:
+**Control the host keystrokes**
+
 Ensure that we will be able to control the keystrokes of a Windows PC through the app
 
-**Filter chat messages**:
+**Filter chat messages**
+
 Filter chat messages to recognize the commands and abstract them into a class/function
 
-**Game Commands Manager**:
+**Game Commands Manager**
+
 Using the previous filter abstraction we can create a buffer of commands. Also we can consider creating a good abstraction to allow custom commands for a future phase (i.e chat sends "!car" and will be "X" for the host).
 
-**Queue Manager**:
+**Queue Manager**
+
 Using the previous filter abstraction we can create specific commands (i.e !join, !leave ...) to register viewers for a game session
 
-**Get User Profiles**:
+**Get User Profiles**
+
 Using the first Twitch connection or another Twitch API to retrieve the images, this is optional and nice-to-have
 
 **Interfaces**
+
 Create a good interface to show buttons, buffer, profiles, and think how to manage queues...
 ## Authors
 
